@@ -37,7 +37,7 @@ const EventSeries = () => {
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed' // Optional: keeps bg still while cards scroll
       }}>
-        <div className='font-serif text-white text-xl lg:text-5xl tracking-widest ml-2'>Events</div>
+        <div className='font-serif text-white text-2xl lg:text-5xl tracking-widest ml-2'>Events</div>
       <div 
         ref={containerRef}
         /* CHANGE LOG:
