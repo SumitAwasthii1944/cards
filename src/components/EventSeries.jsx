@@ -37,6 +37,7 @@ const EventSeries = () => {
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed' // Optional: keeps bg still while cards scroll
       }}>
+        <div className='font-serif text-white text-4xl text-center mb-10'>EVENTS</div>
       <div 
         ref={containerRef}
         /* - px-[10vw]: Minimal padding so we don't conflict with spacers.
