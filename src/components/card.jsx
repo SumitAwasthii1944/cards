@@ -31,7 +31,7 @@ const EventCard = ({ id, title, subtitle, imgTop, imgBottom, character, containe
       <Link 
         to={`/event/${id}`} 
         // CHANGE: Width remains fixed, but relative to vertical viewport
-        className="relative block group w-64 md:w-85 focus:outline-none"
+        className="relative block group w-56 md:w-96 focus:outline-none"
       >
         
         {/* Crosshair Borders - Solidified to black/90 for visibility */}
