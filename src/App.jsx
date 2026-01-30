@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import EventSeries from './components/EventSeries';
+import FAQPage from './components/Faq';
 
 // Simple placeholder for the detail page
 const EventDetail = () => (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         {/* The main page showing all your event cards */}
         <Route path="/" element={<EventSeries />} />
+        <Route path="/faq" element={<FAQPage />} />
         
         {/* The dynamic route for individual events */}
         <Route path="/event/:id" element={<EventDetail />} />
